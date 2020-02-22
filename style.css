@@ -1,0 +1,177 @@
+body {
+  min-width: 1031px;
+  margin:0;
+  padding:0;
+  background-color: white;
+  font-family: "Arial", serif;
+  font-size: 16px;
+  line-height: 30px;
+  color:black;
+}
+.container {
+  width:1011px;
+  margin-top: 0;
+  margin-bottom: 0:
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-header {
+min-height: 490px;
+padding-top:58px;
+background-color: #98761f;
+background-size:cover;
+background-image:url("img/wheat-back.jpg");
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.main-nav {
+list-style: none;
+text-transform: uppercase;
+font-weight: bold;
+}
+.main-nav a {
+  color: white;
+  text-decoration: none;
+}
+ .main-nav a:hover {
+   color: rgba(255,203,120) ;
+ }
+ .main-nav a:active {
+   color:rgba(120,94,52,0.7)
+ }
+
+.promo {
+  font-size: 70px;
+  line-height: 70px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.section-title {
+font-size:40px;
+line-height:40px;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+
+.feature-title {
+font-size:40px;
+line-height:40px;
+text-transform: uppercase;
+font-weight: bold;
+}
+.feature-describe {
+  font-size:16px;
+  line-height:30px;
+  color:#444444;
+}
+.advantages {
+background-color:#ffcb78;
+}
+.advantages-title {
+text-transform: uppercase;
+font-size:20px;
+font-weight: bold;
+line-height:20px;
+}
+.advantages ul {
+  list-style: none;
+}
+.reference-title {
+  text-transform: uppercase;
+  font-size:20px;
+  font-weight: bold;
+  line-height:20px;
+}
+.reference-source {
+  font-size:16px;
+  font-weight: italic;
+  line-height:16px;
+  color:#444444;
+  text-transform:none;
+}
+.reference-title a {
+  color:#834700;
+}
+.reference-title a:hover {
+color:#6a3900;
+}
+.reference-title a:active {
+color:#cab7a2;
+}
+.pressa {
+background-color:#ede5d8;
+}
+blockquote p {
+  font-size:16px;
+  color:#404040;
+  line-height:30px;
+}
+.blockquote-author {
+text-transform: uppercase;
+font-weight:bold;
+font-size:20px;
+line-height:20px;
+font-style: normal;
+}
+.assortments table {
+  line-height:30px;
+}
+.assortments-table th {
+font-size:11px;
+text-transform: uppercase;
+line-height:11px;
+color:#999999;
+}
+.assortments-table td:nth-child(1) {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.assortments-table td:nth-child(2),
+.assortments-table td:nth-child(3),
+.assortments-table td:nth-child(4),
+.assortments-table td:nth-child(5) {
+color:#444444;
+font-size: 16px;
+text-transform: uppercase;
+}
+.form {
+background-color: #ffcb78;
+}
+.feedback-form-group label {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.footer {
+  background-color: #000000;
+  color:#989898;
+}
+.footer-nav {
+  list-style: none;
+}
+.footer-nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer-nav a:hover {
+  color: rgba(255,203,120);
+}
+.footer-nav a:active {
+  color:rgba(120,94,52,0.7);
+}
+.footer-social a{
+  color: white;
+  text-decoration: none;
+}
+.developer a{
+  color:#989898;
+  text-decoration: none;
+  font-size: 14px;
+}
