@@ -1,73 +1,143 @@
 body {
-  min-width: 1031px;
-  margin:0;
-  padding:0;
-  background-color: white;
-  font-family: "Arial", serif;
-  font-size: 16px;
-  line-height: 30px;
-  color:black;
+min-width: 1030px;
+margin: 0;
+padding: 0;
+background-color: white;
+font-family: "Arial", serif;
+font-size: 16px;
+line-height:30px;
+color: black;
 }
-.container {
-  width: 1011px;
-  margin-top: 0;
-  margin-bottom: 0:
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .page-header {
-min-height: 490px;
-padding-top: 58px;
+min-height: 550px;
 background-color: #98761f;
-background-size:cover;
-background-image:url("img/wheat-back.jpg");
+background-image: url("img/wheat-back.jpg");
 background-repeat: no-repeat;
+background-size: cover;
 background-position: center;
 }
+
+.container {
+width: 800px;
+margin: 0 auto;
+}
+
 .header-logo {
-  float:left;
-  width:142px;
-  height:78px;
-}
-.clearfix::after {
-  content:"";
-  clear:both;
-}
-.header-top {
-  margine-top: 133px;
+  float: left;
+  width: 140px;
+  height: 76px;
+  margin-top: 60px;
   }
 
+.header-logo img {
+  width: 140px;
+  height: 76px;
+}
+
+.clearfix::after {
+content:"";
+display: table;
+clear: both;
+}
+
+.header-nav {
+margin-bottom: 115px;
+}
+
 .main-nav {
-margine: 0;
-padding: 0;
-padding-left:57px;
-float:left;
-width:603px;
-list-style: none;
+  float: left;
+  width: 610px;
+  padding: 0;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin: 0px;
+  margin-top: 70px;
+  margin-left: 50px;
+  font-weight: bold;
+  list-style: none;
+  border-top: 1px solid #a07e44;
+  border-bottom: 1px solid #9e7d41;
+}
+
+.main-nav li {
+float: left;
+margin-right: 55px;
 text-transform: uppercase;
-font-weight: bold;
 }
+
+.main-nav li:last-child {
+  margin-right: 0;
+}
+
 .main-nav a {
-  color: white;
-  text-decoration: none;
+color: white;
+text-decoration: none;
 }
- .main-nav a:hover {
-   color: rgba(255,203,120) ;
- }
- .main-nav a:active {
-   color:rgba(120,94,52,0.7)
- }
+
+.main-nav a:hover {
+color: rgba(255,203,120) ;
+}
+
+.main-nav a:active {
+color:rgba(120,94,52,0.7)
+}
 
 .promo {
-  font-size: 70px;
-  line-height: 70px;
-  color: white;
-  font-weight: bold;
-  text-align: center;
+font-size: 70px;
+line-height: 70px;
+color: white;
+font-weight: bold;
+text-align: center;
 }
+/* buttons
+.btn {
+  display: inline-block;
+  width: 146px;
+  padding: 10px;
+  font: inherit;
+  vertical-align: top;
+  text-align: center;
+  color: #a38b70;
+  text-transform: uppercase;
+  text-decoration: none;
+  word-wrap: break-word;
+  border: 2px solid #a38b70;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  color: #8d745a;
+  border-color: #8d745a;
+}
+
+.btn:active {
+  color: rgba(141, 116, 90, 0.3);
+  border-color: #8d745a;
+}
+
+.btn-quick-order {
+  float: right;
+  margin-top: 6px;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-quick-order:hover {
+  color: #404040;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-quick-order:active {
+  color: rgba(64, 64, 64, 0.3);
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+*/
 .section-title {
-font-size:40px;
-line-height:40px;
+font-size: 40px;
+line-height: 40px;
 text-transform: uppercase;
 font-weight: bold;
 }
@@ -79,29 +149,71 @@ line-height:40px;
 text-transform: uppercase;
 font-weight: bold;
 }
-.feature-describe {
-  font-size:16px;
-  line-height:30px;
-  color:#444444;
+
+.composition {
+color: #404040;
+font-size: 16px;
+line-height: 30px;
 }
+
+.composition-table {
+font-size: 16px;
+line-height: 41px;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.new-items table {
+border: 1px solid #e5e5e5;
+border-collapse: collapse;
+width: 150px;
+height: 80px;
+}
+
+.new-items table td {
+border: 1px solid #e5e5e5;
+padding-left: 10px;
+}
+
+.feature-describe {
+font-size:16px;
+line-height:30px;
+color:#444444;
+}
+
+.new-items h2 {
+margin: 0;
+margin-top: 90px;
+margin-left: 110px;
+}
+
+.new-items h3 {
+margin: 0;
+margin-top: 95px;
+}
+
 .advantages {
 background-color:#ffcb78;
 }
+
 .advantages-title {
 text-transform: uppercase;
 font-size:20px;
 font-weight: bold;
 line-height:20px;
 }
+
 .advantages ul {
-  list-style: none;
+list-style: none;
 }
+
 .reference-title {
-  text-transform: uppercase;
-  font-size:20px;
-  font-weight: bold;
-  line-height:20px;
+text-transform: uppercase;
+font-size:20px;
+font-weight: bold;
+line-height:20px;
 }
+
 .reference-source {
   font-size:16px;
   font-weight: italic;
@@ -109,19 +221,23 @@ line-height:20px;
   color:#444444;
   text-transform:none;
 }
+
 .reference-title a {
   color:#834700;
 }
+
 .reference-title a:hover {
 color:#6a3900;
 }
+
 .reference-title a:active {
 color:#cab7a2;
 }
+
 .pressa {
 background-color:#ede5d8;
 }
-blockquote p {
+.blockquote p {
   font-size:16px;
   color:#404040;
   line-height:30px;

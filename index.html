@@ -2,69 +2,78 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Кваст</title>
+    <title>Kvast</title>
     <link rel="stylesheet" href="style.css" >
   </head>
 <body>
-
-<div class="page-header">
-  <div class="header-top clearfix">
+   <!-- Хедер-->
+  <div class="page-header">
     <div class="container">
-    <div class="header-logo">
-    <img src="img/logo.png" alt="Логотип" width="" height="">
-  </div>
-  <ul class="main-nav">
-    <li><a href="#">История</a></li>
-    <li><a href="#">Производство</a></li>
-    <li><a href="#">Ассортимент</a></li>
-    <li><a href="#">Где купить</a></li>
-  </ul>
-  </div>
-  </div>
-  <div class="promo"><p>Крафтовый квас <br> всему голова!</p></div>
-</div>
+        <nav class="header-nav">
+          <a class="header-logo" href="#"><img src="img/logo.png" alt="Логотип" width="140px" height="80px"></a>
+        <ul class="main-nav">
+          <li><a href="#">История</a></li>
+          <li><a href="#">Производство</a></li>
+          <li><a href="#">Ассортимент</a></li>
+          <li><a href="#">Где купить</a></li>
+       </ul>
+       <div class="clearfix"></div>
+     </nav>
+       <div class="promo">
+         <p>Крафтовый квас <br> всему голова!</p></div>
+     </div>
+   </div>
 
+
+ <!-- Раздел с новинками-->
 <div class="new-items">
-  <h2 class="feature-title">Новинки</h2>
-  <div class="new-item">
-    <h3 class="feature-title">Вахтёр</h3>
-  <table>
-    <tr>
-      <td>Алк.</td>
-      <td>&lt; 1%</td>
-    </tr>
-    <tr>
-      <td>Ккал</td>
-      <td> 35</td>
-    </tr>
-  </table>
-    <p>Ржаной хлеб, Вода, Солод, Соль</p>
+  <div class="container">
+    <h2 class="feature-title">Новинки</h2>
+      <div class="new-item clearfix">
+        <h3 class="feature-title">Вахтёр</h3>
+    <table class="composition-table" >
+      <tr>
+        <td>Алк.</td>
+        <td>&lt; 1%</td>
+      </tr>
+      <tr>
+        <td>Ккал</td>
+        <td> 35</td>
+      </tr>
+    </table>
+    <p class="composition">Ржаной хлеб, Вода, Солод, Соль</p>
     <img src="img/bottle-left.jpg" alt="Пиво Вахтер">
     <p class="feature-describe">Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
     <a href="#">Подробнее</a>
     <a href="#">Купить</a>
     <b>150 Р.</b>
   </div>
+</div>
   <div class="new-item">
-    <h3 class="feature-title">Романтик</h3>
-  <table>
-    <tr>
-      <td>Алк.</td>
-      <td>&lt; 0,5%</td>
-    </tr>
-    <tr>
-      <td>Ккал</td>
-      <td> 27</td>
-    </tr>
-  </table>
-    <p>Ячменный хлеб, Вода, Солод, Апельсин</p>
+    <div class="container">
+     <h3 class="feature-title">Романтик</h3>
+       <table class="composition-table" >
+         <tr >
+           <td >Алк.</td>
+           <td>&lt; 0,5%</td>
+         </tr>
+         <tr>
+           <td>Ккал</td>
+           <td> 27</td>
+         </tr>
+       </table>
+    <p class="composition">Ячменный хлеб, Вода, Солод, Апельсин</p>
     <img src="img/bottle-right.jpg" alt="Пиво Романтик">
     <p class="feature-describe">Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
     <a href="#">Подробнее</a>
     <a href="#">Купить</a>
     <b>90 Р.</b>
+    </div>
+   </div>
   </div>
-</div>
+
+
+ <!-- Раздел с преимуществами-->
 <div class="advantages">
   <ul class="advantage-list">
 <li class="advantage-item">
@@ -80,8 +89,12 @@
   <p class="feature-describe">Человек это то, что он ест и пьёт. У нас только качественные ингредиенты.</p>
 </li>
   </ul>
-    </div>
+  </div>
+
+
+ <!-- Раздел с историями происхождения-->
     <div class="histories">
+      <div class="container">
       <h2 class="feature-title">Немного истории</h2>
 <dl>
       <dt class="reference-title">Происхождение кваса
@@ -102,14 +115,20 @@
       </dd>
   </dl>
    </div>
+ </div>
+ <!-- Раздел с прессой-->
    <div class="pressa">
+     <div class="container">
     <h2 class="feature-title">Пресса о нас</h2>
    <blockquote>
      <p>Сегодня мы провели дегустацию чего-то действительно новенького — крафтового кваса. Да, да, вы не ослышались! Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!</p>
      <cite class="blockquote-author"> Газета столичный Стольник</cite>
      <a href="#">Читать далее</a>
    </blockquote>
+  </div>
  </div>
+
+  <!-- Раздел с ассортиментом-->
    <div class="assortments">
    <h2 class="feature-title">Ассортимент</h2>
 <table class="assortments-table">
@@ -150,6 +169,7 @@
 </tr>
 </table>
   </div>
+   <!-- Форма заказа-->
 <div class="form">
 <h2 class="feature-title">Заказать</h2>
 <p class="feature-describe">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
@@ -188,7 +208,7 @@
 </div>
 </form>
 </div>
-
+ <!-- Футер-->
   <div class="footer">
     <div class="footer-top">
       <img src="img/logo.png" alt="Логотип" width="" height="">
