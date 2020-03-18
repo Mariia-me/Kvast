@@ -17,21 +17,23 @@
           <li><a href="#">Ассортимент</a></li>
           <li><a href="#">Где купить</a></li>
        </ul>
-       <div class="clearfix"></div>
-     </nav>
-       <div class="promo">
-         <p>Крафтовый квас <br> всему голова!</p></div>
-     </div>
-   </div>
+         <div class="clearfix"></div>
+       </nav>
+        <div class="promo">
+          <p>Крафтовый квас <br> всему голова!</p>
+        </div>
+      </div>
+    </div>
 
 
  <!-- Раздел с новинками-->
-<div class="new-items">
-  <div class="container">
-    <h2 class="feature-title">Новинки</h2>
-      <div class="new-item clearfix">
-        <h3 class="feature-title">Вахтёр</h3>
-    <table class="composition-table" >
+ <div class="catalog-item">
+   <div class="container">
+  <h2 class="feature-title">Новинки</h2>
+
+    <div class="new-items-first">
+      <h3 class="catalog-items-title"> Вахтёр</h3>
+       <table class="composition-table">
       <tr>
         <td>Алк.</td>
         <td>&lt; 1%</td>
@@ -41,18 +43,19 @@
         <td> 35</td>
       </tr>
     </table>
-    <p class="composition">Ржаной хлеб, Вода, Солод, Соль</p>
+    <p class="composition-at-new-items">Ржаной хлеб, Вода, Солод, Соль</p>
     <img src="img/bottle-left.jpg" alt="Пиво Вахтер">
+     <div>
     <p class="feature-describe">Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
     <a href="#">Подробнее</a>
     <a href="#">Купить</a>
     <b>150 Р.</b>
   </div>
 </div>
-  <div class="new-item">
-    <div class="container">
-     <h3 class="feature-title">Романтик</h3>
-       <table class="composition-table" >
+
+  <div class="new-items-second">
+     <h3 class="catalog-items-title">Романтик</h3>
+       <table class="composition-table">
          <tr >
            <td >Алк.</td>
            <td>&lt; 0,5%</td>
@@ -61,33 +64,38 @@
            <td>Ккал</td>
            <td> 27</td>
          </tr>
-       </table>
-    <p class="composition">Ячменный хлеб, Вода, Солод, Апельсин</p>
+         </table>
+        <p class="composition-at-new-items-2">Ячменный хлеб, Вода, Солод, Апельсин</p>
     <img src="img/bottle-right.jpg" alt="Пиво Романтик">
     <p class="feature-describe">Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
     <a href="#">Подробнее</a>
     <a href="#">Купить</a>
     <b>90 Р.</b>
     </div>
+    <div class="clearfix"></div>
    </div>
-  </div>
+ </div>
 
 
  <!-- Раздел с преимуществами-->
 <div class="advantages">
   <ul class="advantage-list">
-<li class="advantage-item">
+<li class="advantage-item icon-brew">
+  <img src="img/icon-brew.png" width="50px" height="64px">
   <h2 class="advantages-title">Варим сами</h2>
-  <p class="feature-describe">Вот этими самыми руками. Экспериментируем и творим, что хотим.</p>
+  <p>Вот этими самыми руками. Экспериментируем и творим, что хотим.</p>
 </li>
-<li class="advantage-item">
-  <h2 class="advantages-title"> Своё, родное</h2>
-  <p class="feature-describe">Не заработка ради, а импортозамещения для. Поднимаем производство.</p>
+<li class="advantage-item icon-matreshka">
+  <img src="img/icon-matreshka.png" width="46px" height="64px">
+<h2 class="advantages-title"> Своё, родное</h2>
+  <p>Не заработка ради, а импортозамещения для. Поднимаем производство.</p>
 </li>
-<li class="advantage-item">
+<li class="advantage-item icon-thumbsup">
+<img src="img/icon-thumbsup.png" width="63px" height="64px">
   <h2 class="advantages-title">Не экономим</h2>
-  <p class="feature-describe">Человек это то, что он ест и пьёт. У нас только качественные ингредиенты.</p>
+  <p>Человек это то, что он ест и пьёт. У нас только качественные ингредиенты.</p>
 </li>
+<div class="clearfix"></div>
   </ul>
   </div>
 
@@ -95,11 +103,10 @@
  <!-- Раздел с историями происхождения-->
     <div class="histories">
       <div class="container">
-      <h2 class="feature-title">Немного истории</h2>
-<dl>
+       <h2 class="feature-title">Немного истории</h2>
+      <dl class="reference-desc">
       <dt class="reference-title">Происхождение кваса
       <i class="reference-source">Источник: <a href="#">ru.wikipedia.org</a></i>
-
       </dt>
      <dd>
      <img src="img/wiki-1.png">
@@ -113,13 +120,20 @@
       <img src="img/wiki-2.png">
       <p class="feature-describe">По российскому ГОСТу для промышленного изготовления — это напиток с объёмной долей этилового спирта не более 1,2%, изготовленный в результате незавершённого спиртового и молочнокислого брожения сусла.</p>
       </dd>
+      <div class="clearfix"></div>
   </dl>
    </div>
  </div>
+
+
+
+
+
  <!-- Раздел с прессой-->
    <div class="pressa">
      <div class="container">
     <h2 class="feature-title">Пресса о нас</h2>
+    <div class="pressa-img"></div>
    <blockquote>
      <p>Сегодня мы провели дегустацию чего-то действительно новенького — крафтового кваса. Да, да, вы не ослышались! Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!</p>
      <cite class="blockquote-author"> Газета столичный Стольник</cite>
@@ -130,6 +144,7 @@
 
   <!-- Раздел с ассортиментом-->
    <div class="assortments">
+     <div class="container">
    <h2 class="feature-title">Ассортимент</h2>
 <table class="assortments-table">
 <tr>
@@ -154,20 +169,21 @@
    <td> 250 Р.</td>
 </tr>
 <tr>
-   <td>Вахтёр <sup>Новинка</sup></td>
+   <td>Вахтёр <span><sup>Новинка</sup></span></td>
    <td> &lt; 1%</td>
    <td> 35</td>
    <td> 0,5 л</td>
    <td>150 Р.</td>
 </tr>
 <tr>
-   <td>Романтик <sup>Новинка</sup></td>
+   <td>Романтик <span><sup>Новинка</sup></span></td>
    <td>&lt; 0,5%</td>
   <td> 27</td>
   <td> 0,5 л</td>
   <td> 90 Р.</td>
 </tr>
 </table>
+</div>
   </div>
    <!-- Форма заказа-->
 <div class="form">

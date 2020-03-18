@@ -1,5 +1,5 @@
 body {
-min-width: 1030px;
+min-width: 1200px;
 margin: 0;
 padding: 0;
 background-color: white;
@@ -135,25 +135,62 @@ text-align: center;
   border-color: #ffffff;
 }
 */
-.section-title {
+
+.feature-title {
 font-size: 40px;
 line-height: 40px;
 text-transform: uppercase;
 font-weight: bold;
+margin: 0;
+padding: 0;
 }
 
-
-.feature-title {
-font-size:40px;
-line-height:40px;
-text-transform: uppercase;
-font-weight: bold;
+.catalog-item {
+padding-bottom: 110px;
+padding-top: 90px;
 }
 
-.composition {
+.catalog-items-title  {
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+h3.catalog-items-title  {
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  padding-top: 95px;
+}
+
+.composition-at-new-items {
+min-height: 40px;
 color: #404040;
-font-size: 16px;
-line-height: 30px;
+font-size: 14px;
+line-height: 24px;
+}
+
+.composition-at-new-items-2 {
+min-height: 40px;
+color: #404040;
+font-size: 14px;
+line-height: 24px;
+}
+
+.new-items-first {
+  float: left;
+  margin-left: 35px;
+}
+
+.new-items-second {
+  float: left;
+  margin-left: 70px;
 }
 
 .composition-table {
@@ -163,48 +200,99 @@ text-transform: uppercase;
 font-weight: bold;
 }
 
-.new-items table {
+table.composition-table {
 border: 1px solid #e5e5e5;
 border-collapse: collapse;
 width: 150px;
 height: 80px;
 }
 
-.new-items table td {
+table.composition-table td {
 border: 1px solid #e5e5e5;
 padding-left: 10px;
 }
 
 .feature-describe {
+width: 340px;
 font-size:16px;
 line-height:30px;
 color:#444444;
 }
 
-.new-items h2 {
-margin: 0;
-margin-top: 90px;
-margin-left: 110px;
-}
 
-.new-items h3 {
-margin: 0;
-margin-top: 95px;
-}
 
 .advantages {
 background-color:#ffcb78;
+padding-top: 75px;
+padding-bottom: 90px;
+}
+
+.advantage-list {
+  width: 1200px;
+  margin: 0;
+}
+
+ul.advantage-list {
+margin: 0;
+padding: 0;
+list-style: none;
 }
 
 .advantages-title {
 text-transform: uppercase;
-font-size:20px;
+font-size: 20px;
 font-weight: bold;
-line-height:20px;
+line-height: 20px;
 }
 
-.advantages ul {
-list-style: none;
+.advantage-item p {
+  color: #444444;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0px;
+}
+
+.advantage-item {
+  float: left;
+  width: 209px;
+  padding-left: 96px;
+  padding-right: 96px;
+}
+
+.advantage-item:first-child {
+padding-right: 90px;
+width: 203px;
+}
+
+.advantage-item:last-child {
+width: 206px;
+padding-left: 100px;
+}
+
+
+
+
+
+
+
+.histories {
+}
+
+
+.pressa {
+  background-color:#ede5d8;
+}
+
+blockquote p {
+width: 700px;
+
+}
+
+
+.pressa-img {
+  background-image: url("img/quotes.png");
+  width: 41px;
+  height: 31px;
 }
 
 .reference-title {
@@ -234,14 +322,12 @@ color:#6a3900;
 color:#cab7a2;
 }
 
-.pressa {
-background-color:#ede5d8;
-}
 .blockquote p {
   font-size:16px;
   color:#404040;
   line-height:30px;
 }
+
 .blockquote-author {
 text-transform: uppercase;
 font-weight:bold;
@@ -249,20 +335,74 @@ font-size:20px;
 line-height:20px;
 font-style: normal;
 }
+
+
+
+
+.assortments {
+  padding: 0;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+
+.assortments h2.feature-title {
+  margin-bottom: 100px;
+}
+
+td,
+th {
+border-bottom: 1px solid #e5e5e5;
+}
+
+th {
+  padding-bottom: 40px;
+}
+ td {
+   padding-top: 25px;
+   padding-bottom: 25px;
+ }
+
+table {
+  border-collapse: collapse;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+td:nth-child(2),
+td:nth-child(3),
+td:nth-child(4) {
+  text-align: center;
+}
+
+th:last-child {
+text-align: right;
+}
+
+th:first-child {
+text-align: left;
+}
+
 .assortments table {
   line-height:30px;
+  width: 800px;
 }
+
 .assortments-table th {
 font-size:11px;
 text-transform: uppercase;
 line-height:11px;
 color:#999999;
 }
+
 .assortments-table td:nth-child(1) {
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .assortments-table td:nth-child(2),
 .assortments-table td:nth-child(3),
 .assortments-table td:nth-child(4),
@@ -271,6 +411,20 @@ color:#444444;
 font-size: 16px;
 text-transform: uppercase;
 }
+
+td sup {
+  background-color: black;
+  color: white;
+  font-size: 8px;
+  font-weight: bold;
+  padding: 2px 4px;
+}
+
+td span {
+  padding-left: 25px;
+}
+
+
 .form {
 background-color: #ffcb78;
 }
