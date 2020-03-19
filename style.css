@@ -1,5 +1,5 @@
 body {
-min-width: 1200px;
+min-width: 1035px;
 margin: 0;
 padding: 0;
 background-color: white;
@@ -15,7 +15,7 @@ background-color: #98761f;
 background-image: url("img/wheat-back.jpg");
 background-repeat: no-repeat;
 background-size: cover;
-background-position: center;
+background-position: bottom;
 }
 
 .container {
@@ -167,6 +167,7 @@ h3.catalog-items-title  {
   margin: 0;
   padding: 0;
   padding-top: 95px;
+  padding-bottom: 40px;
 }
 
 .composition-at-new-items {
@@ -186,11 +187,15 @@ line-height: 24px;
 .new-items-first {
   float: left;
   margin-left: 35px;
+  width: 340px;
 }
 
 .new-items-second {
   float: left;
-  margin-left: 70px;
+}
+
+.new-items-first img {
+  float: left;
 }
 
 .composition-table {
@@ -210,6 +215,7 @@ height: 80px;
 table.composition-table td {
 border: 1px solid #e5e5e5;
 padding-left: 10px;
+text-align: left;
 }
 
 .feature-describe {
@@ -219,6 +225,16 @@ line-height:30px;
 color:#444444;
 }
 
+.comp-items {
+  float: right;
+}
+
+.comp-items p {
+  width: 150px;
+}
+
+
+
 
 
 .advantages {
@@ -227,9 +243,13 @@ padding-top: 75px;
 padding-bottom: 90px;
 }
 
+.container-2 {
+  width: 1015px;
+  margin: 0 auto;
+}
+
 .advantage-list {
-  width: 1200px;
-  margin: 0;
+  width: 1015px;
 }
 
 ul.advantage-list {
@@ -249,50 +269,75 @@ line-height: 20px;
   color: #444444;
   font-size: 16px;
   line-height: 30px;
-  margin: 0px;
-}
-
-.advantage-item {
-  float: left;
-  width: 209px;
-  padding-left: 96px;
-  padding-right: 96px;
 }
 
 .advantage-item:first-child {
-padding-right: 90px;
+  float: left;
 width: 203px;
+margin-right: 190px;
 }
 
-.advantage-item:last-child {
-width: 206px;
-padding-left: 100px;
+.advantage-item:nth-child(2) {
+  float: left;
+  width: 209px;
+  margin-right: 190px;
 }
 
-
-
-
-
+.advantage-item:nth-child(3) {
+float: left;
+width: 210px;
+margin-right: 0px;
+}
 
 
 .histories {
+  padding-top: 95px;
+  padding-bottom: 85px;
 }
+
+.histories h2.feature-title {
+  padding-bottom: 80px;
+}
+
+.histories p.feature-describe {
+
+}
+
+.reference-source {
+  float: right;
+}
+
+.feature-describe {
+width: 475px;
+}
+
+
+
+
 
 
 .pressa {
   background-color:#ede5d8;
+  padding-top: 95px;
+  padding-bottom: 90px;
+}
+
+.pressa h2.feature-title {
+  padding-left: 110px;
+  padding-bottom: px;
 }
 
 blockquote p {
-width: 700px;
-
+width: 695px;
+padding-left: 65px;
 }
 
-
 .pressa-img {
-  background-image: url("img/quotes.png");
-  width: 41px;
-  height: 31px;
+float: left;
+background-image: url("img/quotes.png");
+background-repeat: no-repeat;
+width: 41px;
+height: 31px;
 }
 
 .reference-title {
@@ -337,44 +382,53 @@ font-style: normal;
 }
 
 
-
+/* Assortment's table */
 
 .assortments {
-  padding: 0;
-  margin: 0;
-  padding-top: 100px;
-  padding-bottom: 90px;
+padding: 0;
+margin: 0;
+padding-top: 100px;
+padding-bottom: 90px;
 }
 
-.assortments h2.feature-title {
-  margin-bottom: 100px;
+.assortments-table caption {
+font-size: 40px;
+line-height: 40px;
+text-transform: uppercase;
+font-weight: bold;
+margin: 0;
+padding: 0;
+caption-side: top;
+text-align: left;
+padding-bottom: 100px;
 }
 
-td,
-th {
+.assortments-table td,
+.assortments-table th {
 border-bottom: 1px solid #e5e5e5;
 }
 
-th {
-  padding-bottom: 40px;
+.assortments-table th {
+padding-bottom: 40px;
 }
- td {
-   padding-top: 25px;
-   padding-bottom: 25px;
- }
+
+.assortments-table td {
+padding-top: 25px;
+padding-bottom: 25px;
+}
 
 table {
-  border-collapse: collapse;
+border-collapse: collapse;
 }
 
 td:last-child {
-  text-align: right;
+text-align: right;
 }
 
 td:nth-child(2),
 td:nth-child(3),
 td:nth-child(4) {
-  text-align: center;
+text-align: center;
 }
 
 th:last-child {
@@ -386,8 +440,8 @@ text-align: left;
 }
 
 .assortments table {
-  line-height:30px;
-  width: 800px;
+line-height:30px;
+width: 800px;
 }
 
 .assortments-table th {
@@ -398,9 +452,9 @@ color:#999999;
 }
 
 .assortments-table td:nth-child(1) {
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
+font-size: 16px;
+font-weight: bold;
+text-transform: uppercase;
 }
 
 .assortments-table td:nth-child(2),
@@ -413,16 +467,17 @@ text-transform: uppercase;
 }
 
 td sup {
-  background-color: black;
-  color: white;
-  font-size: 8px;
-  font-weight: bold;
-  padding: 2px 4px;
+background-color: black;
+color: white;
+font-size: 8px;
+font-weight: bold;
+padding: 2px 4px;
 }
 
 td span {
-  padding-left: 25px;
+padding-left: 25px;
 }
+
 
 
 .form {
